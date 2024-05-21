@@ -39,5 +39,7 @@ def takeCommand():
               return "None"
         return query
       
-text=takeCommand()
-speak(text)
+if __name__=="__main__":
+
+    query=takeCommand()
+    print(query)
